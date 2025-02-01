@@ -1,35 +1,33 @@
 /**
  * @name Float
- * @version 2.0.21
- * @author Disease#3749
- * @authorId 678469587444170762
+ * @version 2.0.21-fixed
+ * @author SuperStefan84
+ * @authorId 444484185428852736
  * @description Compact mobile Discord with customization.
- * @source https://github.com/maenDisease/BetterDiscordStuff/tree/main/Themes/Float
- * @invite BShu37e4jg
- * @website https://maendisease.github.io/
+ * @source https://github.com/SuperStefan84/BetterDiscordFloatTheme/tree/main/Themes/Float
 */
 
 /* Addons */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/css/bdAddonMini.css);
 
 /* Warning to Remove Minimum Size */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
+@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
 
 /* Source */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
+@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/Themes/Float/Float.css) (max-width: 1940px); /* Default max-width: 940px*/
 
 /* If your theme has custom settings icons, delete or comment this line */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
+@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
 
 :root {
     /* Guildlist */
-    --guildicon-size: 48;
+    --guildicon-size: 52; /* Default 48 */
     --enable-if-using-favorites-experiment: 0; /* boolean */
     --guildlist-collapse: 0; /* boolean */
 
     /* Channel sidebar */
     --slide-window-on-hover: 1; /* boolean */
-    --float-sidebar-width: 48;
+    --float-sidebar-width: 80; /* Default 48 */
     --sidebar-hover-width: 240px;
     --sidebar-hover-delay: 0.2s;
     --sidebar-transition-duration: 0.4s;
@@ -38,9 +36,9 @@
     --sidebar-usersettings-width: 66px;
 
     /* Memberlist */
-    --float-members-width: 65px;
+    --float-members-width: 48px; /* Default 65 */
     --members-hover-width: 240px;
-    --members-hover-delay: 1.5s;
+    --members-hover-delay: 0.5s; /* Default 1.5 */
     --members-transition-duration: 0.4s;
 
     /* Channelheader */
