@@ -1,8 +1,18 @@
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/diseaseControl.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChatBubbles.css);
+/* Disease Control */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/diseaseControl.css);
+
+/* Profile Banner Skins */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/ProfileBannerSkins.css);
+
+/* Bearable Inbox */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/bearableInbox.css);
+
+/* Better Invites */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/bettterInvites.css);
+
+/* Chat Bubbles */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/ChatBubbles.css);
+
 @import url(https://fonts.cdnfonts.com/css/sf-pro-display);
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap);
 :root {

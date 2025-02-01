@@ -1,16 +1,19 @@
 /**
  * @name Solana
  * @author SuperStefan84
- * @version 1.0.11
+ * @version 1.0.12
  * @description macOS with customization.
- * @source https://github.com/maenDisease/Solana
+ * @source https://github.com/SuperStefan84/BetterDiscordFloatTheme/tree/main/Themes/Solana
 */
 
-@import url('https://maendisease.github.io/Solana/Solana.css');
-
 /* Consider using https://bdeditor.dev/theme/Solana */
-@import url("https://maendisease.github.io/Solana/addons/mac-titlebar.css");
-@import url("https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css");
+/* Solana Theme */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Solana/Solana.css);
+
+/* mac-titlebar for Solana */
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Solana/addon/mac-titlebar.css);
+
+@import url("https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/bdAddonMini.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 :root {
   /* color control */
