@@ -1,4 +1,4 @@
-@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/css/bearableInbox.css);
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/bearableInbox.css);
 @import url(https://discordstyles.github.io/HorizontalServerList/resizablelist.css);
 :root {
   --guildicon-size: 48;

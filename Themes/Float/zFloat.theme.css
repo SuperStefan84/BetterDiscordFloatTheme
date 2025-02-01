@@ -8,16 +8,16 @@
 */
 
 /* Addons */
-@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/css/bdAddonMini.css);
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/css/bdAddonMini.css);
 
 /* Warning to Remove Minimum Size */
-@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
 
 /* Source */
-@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/Themes/Float/Float.css) (max-width: 1940px); /* Default max-width: 940px*/
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/Float.css) (max-width: 1940px); /* Default max-width: 940px*/
 
 /* If your theme has custom settings icons, delete or comment this line */
-@import url(https://raw.githubusercontent.com/SuperStefan84/BetterDiscordFloatTheme/refs/heads/main/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
 
 :root {
     /* Guildlist */
