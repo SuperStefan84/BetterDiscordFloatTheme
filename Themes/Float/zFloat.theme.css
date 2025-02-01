@@ -82,3 +82,7 @@
         --guildlist-collapse: 1;
     }
 }
+
+html:not(.visual-refresh) div .sidebar_c48ade:not(.hidden_c48ade) {
+    width: unset !important;
+}
