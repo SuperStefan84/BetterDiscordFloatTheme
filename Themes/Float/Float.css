@@ -21,18 +21,42 @@
   --textarea-buttons-gif: flex;
   --textarea-buttons-sticker: flex;
   --textarea-buttons-gift: none;
+  --channel_width: 101px;
 }
 
 :root {
   --guildicon-size-px: calc(var(--guildicon-size) * 1px);
   --server-size: calc(var(--guildicon-size) * 1px);
-  --float-sidebar-width-px: calc(var(--float-sidebar-width) * 1px);
+  /* --float-sidebar-width-px: calc(var(--float-sidebar-width) * 1px); */
   --sidebar-transition-exit: var(--sidebar-transition-duration) ease;
   --sidebar-transition-entry: var(--sidebar-transition-duration) var(--sidebar-hover-delay) ease;
   --members-transition-calc-entry: width var(--members-transition-duration) var(--members-hover-delay) ease, var(--members-transition-calc-box-shadow);
   --members-transition-calc-exit: width var(--members-transition-duration) ease, var(--members-transition-calc-box-shadow);
   --members-transition-calc-box-shadow: box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
+
+/* it hides/disables new discord feature to resize channel list */
+.sidebarResizeHandle_c48ade {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    pointer-events: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    z-index: -9999 !important;
+}
+
+.sidebarList_c48ade.sidebarListRounded_c48ade {
+    width: var(--channel_width);
+    transition: width var(--sidebar-transition-exit);
+}
+  
+.sidebar_c48ade:hover .sidebarList_c48ade.sidebarListRounded_c48ade {
+    width: var(--sidebar-hover-width);
+    transition: width var(--sidebar-transition-entry);
+}
+
 
 .sidebar_c48ade {
   overflow: hidden;
@@ -61,7 +85,7 @@
     --cap-sidebar-exceeded: calc(min(var(--float-sidebar-width), 97) - var(--capped-sidebar-width));
     margin-left: calc((var(--capped-sidebar-width) / var(--capped-sidebar-width) - var(--cap-sidebar-exceeded)) * 32px);
 } */
-#app-mount .app_a3002d .sidebar_c48ade {
+/* #app-mount .app_a3002d .sidebar_c48ade {
   position: absolute;
   z-index: 101;
   height: 100%;
@@ -72,7 +96,7 @@
 
 .platform-win #app-mount .sidebar_c48ade {
   border-top-right-radius: var(--sidebar-border-radius);
-}
+} */
 
 #app-mount .app_a3002d .animatedContainer_f37cb1,
 .bannerImage_f37cb1,

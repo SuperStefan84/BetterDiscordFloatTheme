@@ -1,6 +1,6 @@
 /**
  * @name Float
- * @version 2.0.22
+ * @version 2.0.23
  * @author SuperStefan84
  * @authorId 444484185428852736
  * @description Compact mobile Discord with customization.
@@ -14,7 +14,8 @@
 @import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
 
 /* Source */
-@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/Float.css) (max-width: 1940px); /* Default max-width: 940px*/
+@import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/Float.css) (max-width: 1940px);
+/* Default max-width: 940px*/
 
 /* If your theme has custom settings icons, delete or comment this line */
 @import url(https://cdn.jsdelivr.net/gh/SuperStefan84/BetterDiscordFloatTheme/Themes/Float/addon/SettingsIcons.css) (max-width: 940px);
@@ -26,8 +27,9 @@
     --guildlist-collapse: 0; /* boolean */
 
     /* Channel sidebar */
+    --channel_width: 101px; /* New value to set width of channel list also in my testing it must be <= 101px or it wont render */
     --slide-window-on-hover: 1; /* boolean */
-    --float-sidebar-width: 80; /* Default 48 */
+    --float-sidebar-width: 80; /* Default 48 */ /* not sure if this value works anymore */
     --sidebar-hover-width: 240px;
     --sidebar-hover-delay: 0.2s;
     --sidebar-transition-duration: 0.4s;
