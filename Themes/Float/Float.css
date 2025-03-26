@@ -85,18 +85,20 @@
     --cap-sidebar-exceeded: calc(min(var(--float-sidebar-width), 97) - var(--capped-sidebar-width));
     margin-left: calc((var(--capped-sidebar-width) / var(--capped-sidebar-width) - var(--cap-sidebar-exceeded)) * 32px);
 } */
-/* #app-mount .app_a3002d .sidebar_c48ade {
-  position: absolute;
-  z-index: 101;
-  height: 100%;
-  width: -moz-fit-content;
-  width: fit-content;
-  transition: width var(--sidebar-transition-exit);
+
+/* Disable floating sidebar behavior */
+#app-mount .app_a3002d .sidebar_c48ade {
+  position: relative !important;
+  z-index: 1 !important;
+  height: 100% !important;
+  width: var(--channel_width) !important;
+  transition: none !important;
 }
 
+/* Remove border radius */
 .platform-win #app-mount .sidebar_c48ade {
-  border-top-right-radius: var(--sidebar-border-radius);
-} */
+  border-top-right-radius: 0 !important;
+}
 
 #app-mount .app_a3002d .animatedContainer_f37cb1,
 .bannerImage_f37cb1,
