@@ -1,4 +1,4 @@
-.layerContainer_cd0de5:has(.backdrop__1a911.withLayer__29ace) {
+.layerContainer_da8173:has(.backdrop__1a911.withLayer__29ace) {
     width: fit-content;
     height: fit-content;
     left: unset;
@@ -6,18 +6,18 @@
     margin: auto 0;
 }
 
-.layer_c9e2da {
+.layer_bc663c {
     padding: 32px;
     position: relative;
 }
 
-.layer_c9e2da.hidden_c9e2da,
-.layer_c9e2da:has(+ .layer_c9e2da) {
+.layer_bc663c.hidden_bc663c,
+.layer_bc663c:has(+ .layer_bc663c) {
     position: absolute;
 }
 
 /* hidden layer */
-.layer_c9e2da.hidden_c9e2da {
+.layer_bc663c.hidden_bc663c {
     position: absolute;
 }
 
@@ -29,19 +29,19 @@
 }
 
 /* styling */
-.theme-dark .rootWithShadow_f9a4c9,
+.theme-dark .rootWithShadow__49fc1,
 .theme-dark .backdrop__1a911.withLayer__29ace {
     -webkit-box-shadow: var(--dark-elevation-border), var(--elevation-high) !important;
     box-shadow: var(--dark-elevation-border), var(--elevation-high) !important;
 }
 
-.theme-light .rootWithShadow_f9a4c9,
+.theme-light .rootWithShadow__49fc1,
 .theme-light .backdrop__1a911.withLayer__29ace {
     -webkit-box-shadow: var(--light-elevation-border), var(--elevation-high) !important;
     box-shadow: var(--light-elevation-border), var(--elevation-high) !important;
 }
 
-.root_f9a4c9 {
+.root__49fc1 {
     border-radius: 8px;
     max-height: 80vh;
 }
@@ -52,12 +52,12 @@
     height: fit-content;
 }
 
-.wrapper_b6f1f8.modalCarouselWrapper_b586d2 {
+.wrapper__21d85.modalCarouselWrapper_f74404 {
     inset: unset;
     position: relative;
 }
 
-.arrowContainer_b65c0b {
+.arrowContainer__31873 {
     top: unset;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -67,23 +67,23 @@
     visibility: hidden;
 }
 
-.carouselModal-1eUFoq:hover .arrowContainer_b65c0b {
+.carouselModal-1eUFoq:hover .arrowContainer__31873 {
     visibility: visible;
 }
 
-.navPrev_b6f1f8 {
+.navPrev__21d85 {
     margin-left: 0;
 }
 
-.navNext_b6f1f8 {
+.navNext__21d85 {
     margin-right: 0;
 }
 
 /* usermodal */
 .userProfileModalInner_c69a7b,
 /* expanded text file */
-.modalContent_ad9cbd,
+.modalContent__4d95d,
 /* auth modal */
-.authorize_c5a065 {
+.authorize__3d3b0 {
     max-height: 80vh;
 }
